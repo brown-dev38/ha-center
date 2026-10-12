@@ -1,0 +1,22 @@
+{
+  "name": "ha-center",
+  "private": true,
+  "packageManager": "bun@1.2.0",
+  "workspaces": [
+    "apps/web"
+  ],
+  "overrides": {
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "zod": "3.23.8"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @ha-center/web",
+    "dev:web": "npm run dev -w @ha-center/web",
+    "build": "npm run build -w @ha-center/web",
+    "build:web": "npm run build -w @ha-center/web",
+    "start": "npm run start -w @ha-center/web"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "typescript.tsdk": "apps/web/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "eslint.workingDirectories": ["apps/web"],
+  "typescript.preferences.includePackageJsonAutoImports": "on"
+}
